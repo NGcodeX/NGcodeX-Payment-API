@@ -18,7 +18,39 @@ Le projet suit une architecture MVC (Modèle-Vue-Contrôleur) pour une organisat
 - `util/` : Classes utilitaires, notamment pour les appels HTTP.
 - `exception/` : Gestion des exceptions liées aux paiements.
 - `config/` : Configuration de l'API (clés, URLs, etc.).
+```
+src
+|-- main
+    |-- java
+        |-- com
+            |-- ngcodex
+                |-- model
+                    |-- PaymentService.java
+                    |-- PaymentResponse.java
+                |-- controller
+                    |-- PaymentController.java
+                |-- util
+                    |-- HttpUtil.java
+                |-- exception
+                    |-- PaymentException.java
+                |-- config
+                    |-- ApiConfig.java
+    |-- webapp
+        |-- META-INF
+            |-- MANIFEST.MF
+        |-- WEB-INF
+            |-- lib
+                |-- [ NGcodeX JAR.. ]
+            |-- views
+                |-- index.jsp
+                |-- payment.jsp
+                |-- transactionHistory.jsp
+                |-- error.jsp
+                |-- success.jsp
+                |-- layout.jsp
+            |-- web.xml
 
+```
 ## Comment Contribuer
 
 Si vous souhaitez contribuer à l'amélioration de cette API, veuillez consulter notre guide de contribution dans le fichier CONTRIBUTING.md. Toutes les contributions sont les bienvenues !
