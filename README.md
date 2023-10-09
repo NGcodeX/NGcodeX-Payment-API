@@ -1,4 +1,5 @@
-# NGcodeX Payment API
+# [NGcodeX](https://ngcodex.com) Payment API
+![montage NGcodeX](https://github.com/NGcodeX/NGcodeX-Payment-API/blob/main/.github/workflows/ngcodexPayementBanner.jpg?raw=true)
 
 Bienvenue dans le référentiel de l'API de paiement pour le club étudiant NGcodeX. Cette API permet d'interagir avec les services de paiement Orange Money et MTN Money pour faciliter les transactions financières au sein de notre communauté.
 
@@ -59,6 +60,10 @@ Si vous souhaitez contribuer à l'amélioration de cette API, veuillez consulter
 
 - Java 8 ou version ultérieure.
 - Serveur d'application Java EE (comme Apache Tomcat).
+- - Java EE
+- Servlets
+- JSP
+- IDE de votre choix. nous avons utiliser Eclipse
 
 ## Documentation
 
